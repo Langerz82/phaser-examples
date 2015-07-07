@@ -44,7 +44,7 @@ function update() {
 
     if (cursors.left.isDown)
     {
-        player.body.velocity.x = -300;
+        player.body.moveLeft(300);
     }
     else if (cursors.right.isDown)
     {
